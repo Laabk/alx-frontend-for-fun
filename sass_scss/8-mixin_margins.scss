@@ -1,0 +1,14 @@
+@mixin marginyx($value) {
+    margin-left: $value;
+    margin-right: $value; 
+}
+
+
+body {
+    @include marginyx(10px) 
+}
+div {
+   @include marginyx(15px)
+}
+  
+  
